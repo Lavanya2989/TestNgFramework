@@ -1,0 +1,344 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 31 16:11:33 NZST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>105 seconds (105623 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.CsvExampleTest()'><b>CsvExampleTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all parameters from CSV file<br>Parameters: Will, Smith, mail-1@email.com, CSVfileexample<br/>
+<a href="#Output-1116965023" onClick='toggleBox("Output-1116965023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1116965023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1116965023">
+2020/08/31 16:12:47 Fill first name - 'Will'<br/>
+2020/08/31 16:12:47 Fill last name - 'Smith'<br/>
+2020/08/31 16:12:47 Fill email - 'mail-1@email.com'<br/>
+2020/08/31 16:12:47 Fill comment - 'CSVfileexample'<br/>
+2020/08/31 16:12:47 Click submit button<br/>
+2020/08/31 16:12:48 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.CsvExampleTest()'><b>CsvExampleTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all parameters from CSV file<br>Parameters: Tony, Stark, mail-2@email.com, CSVfileexample<br/>
+<a href="#Output-1672925869" onClick='toggleBox("Output-1672925869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1672925869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1672925869">
+2020/08/31 16:12:50 Fill first name - 'Tony'<br/>
+2020/08/31 16:12:51 Fill last name - 'Stark'<br/>
+2020/08/31 16:12:51 Fill email - 'mail-2@email.com'<br/>
+2020/08/31 16:12:51 Fill comment - 'CSVfileexample'<br/>
+2020/08/31 16:12:51 Click submit button<br/>
+2020/08/31 16:12:52 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.CsvExampleTest()'><b>CsvExampleTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all parameters from CSV file<br>Parameters: John, Depp, mail-3@email.com, CSVfileexample<br/>
+<a href="#Output-355649844" onClick='toggleBox("Output-355649844", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-355649844" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-355649844">
+2020/08/31 16:12:54 Fill first name - 'John'<br/>
+2020/08/31 16:12:54 Fill last name - 'Depp'<br/>
+2020/08/31 16:12:54 Fill email - 'mail-3@email.com'<br/>
+2020/08/31 16:12:54 Fill comment - 'CSVfileexample'<br/>
+2020/08/31 16:12:55 Click submit button<br/>
+2020/08/31 16:12:56 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.CsvExampleTest()'><b>CsvExampleTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all parameters from CSV file<br>Parameters: Brad, Pitt, mail-4@email.com, CSVfileexample<br/>
+<a href="#Output-628612151" onClick='toggleBox("Output-628612151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-628612151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-628612151">
+2020/08/31 16:12:58 Fill first name - 'Brad'<br/>
+2020/08/31 16:12:58 Fill last name - 'Pitt'<br/>
+2020/08/31 16:12:58 Fill email - 'mail-4@email.com'<br/>
+2020/08/31 16:12:58 Fill comment - 'CSVfileexample'<br/>
+2020/08/31 16:12:58 Click submit button<br/>
+2020/08/31 16:13:00 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.BillingOrderTests.RequiredFieldsTest()'><b>RequiredFieldsTest</b><br>Test class: tests.BillingOrderTests<br>Test method: Required fields validation test<br/>
+<a href="#Output-410413095" onClick='toggleBox("Output-410413095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-410413095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-410413095">
+2020/08/31 16:12:01 Click submit button<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>tests.BillingOrderTests@153f66e7</td></tr>
+<tr>
+<td title='tests.BillingOrderTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.BillingOrderTests<br>Test method: Submit billing order with all required parameters<br>Parameters: models.BillingOrder@659f8c1a<br/>
+<a href="#Output-868274034" onClick='toggleBox("Output-868274034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-868274034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-868274034">
+2020/08/31 16:12:10 Fill first name - 'John'<br/>
+2020/08/31 16:12:11 Fill last name - 'Smith'<br/>
+2020/08/31 16:12:11 Fill email - 'mail@email.com'<br/>
+2020/08/31 16:12:11 Fill phone - '88002000500'<br/>
+2020/08/31 16:12:11 Fill address line 1 - 'State'<br/>
+2020/08/31 16:12:11 Fill address line 2 - 'District'<br/>
+2020/08/31 16:12:11 Fill city - 'Kanzas'<br/>
+2020/08/31 16:12:11 Fill code - '54321'<br/>
+2020/08/31 16:12:11 Click state dropdown<br/>
+2020/08/31 16:12:12 Click state option - 'AK'<br/>
+2020/08/31 16:12:12 Click first item radio button<br/>
+2020/08/31 16:12:12 Fill comment - 'Comment'<br/>
+2020/08/31 16:12:12 Click submit button<br/>
+2020/08/31 16:12:12 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tests.BillingOrderTests@153f66e7</td></tr>
+<tr>
+<td title='tests.BillingOrderTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.BillingOrderTests<br>Test method: Submit billing order with all required parameters<br>Parameters: models.BillingOrder@5407502d<br/>
+<a href="#Output-900181099" onClick='toggleBox("Output-900181099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-900181099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-900181099">
+2020/08/31 16:12:16 Fill first name - 'John'<br/>
+2020/08/31 16:12:17 Fill last name - 'Li'<br/>
+2020/08/31 16:12:17 Fill email - 'mail@email.com'<br/>
+2020/08/31 16:12:17 Fill phone - '88002000500'<br/>
+2020/08/31 16:12:17 Fill address line 1 - 'State'<br/>
+2020/08/31 16:12:17 Fill address line 2 - 'District'<br/>
+2020/08/31 16:12:17 Fill city - 'Kanzas'<br/>
+2020/08/31 16:12:17 Fill code - '54321'<br/>
+2020/08/31 16:12:17 Click state dropdown<br/>
+2020/08/31 16:12:17 Click state option - 'AK'<br/>
+2020/08/31 16:12:17 Click first item radio button<br/>
+2020/08/31 16:12:18 Fill comment - 'Comment'<br/>
+2020/08/31 16:12:18 Click submit button<br/>
+2020/08/31 16:12:18 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tests.BillingOrderTests@153f66e7</td></tr>
+<tr>
+<td title='tests.BillingOrderTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.BillingOrderTests<br>Test method: Submit billing order with all required parameters<br>Parameters: models.BillingOrder@5b2cdb78<br/>
+<a href="#Output-364346664" onClick='toggleBox("Output-364346664", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-364346664" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-364346664">
+2020/08/31 16:12:22 Fill first name - 'John'<br/>
+2020/08/31 16:12:22 Fill last name - 'Smith-Li'<br/>
+2020/08/31 16:12:22 Fill email - 'mail@email.com'<br/>
+2020/08/31 16:12:23 Fill phone - '88002000500'<br/>
+2020/08/31 16:12:23 Fill address line 1 - 'State'<br/>
+2020/08/31 16:12:23 Fill address line 2 - 'District'<br/>
+2020/08/31 16:12:23 Fill city - 'Kanzas'<br/>
+2020/08/31 16:12:23 Fill code - '54321'<br/>
+2020/08/31 16:12:23 Click state dropdown<br/>
+2020/08/31 16:12:23 Click state option - 'AK'<br/>
+2020/08/31 16:12:23 Click first item radio button<br/>
+2020/08/31 16:12:23 Fill comment - 'Comment'<br/>
+2020/08/31 16:12:23 Click submit button<br/>
+2020/08/31 16:12:24 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tests.BillingOrderTests@153f66e7</td></tr>
+<tr>
+<td title='tests.BillingOrderTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.BillingOrderTests<br>Test method: Submit billing order with all required parameters<br>Parameters: models.BillingOrder@7630b4e8<br/>
+<a href="#Output-1227062233" onClick='toggleBox("Output-1227062233", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1227062233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1227062233">
+2020/08/31 16:12:28 Fill first name - 'John'<br/>
+2020/08/31 16:12:28 Fill last name - 'Smith-Li O'Connor'<br/>
+2020/08/31 16:12:28 Fill email - 'mail@email.com'<br/>
+2020/08/31 16:12:28 Fill phone - '88002000500'<br/>
+2020/08/31 16:12:29 Fill address line 1 - 'State'<br/>
+2020/08/31 16:12:29 Fill address line 2 - 'District'<br/>
+2020/08/31 16:12:29 Fill city - 'Kanzas'<br/>
+2020/08/31 16:12:29 Fill code - '54321'<br/>
+2020/08/31 16:12:29 Click state dropdown<br/>
+2020/08/31 16:12:29 Click state option - 'AK'<br/>
+2020/08/31 16:12:29 Click first item radio button<br/>
+2020/08/31 16:12:30 Fill comment - 'Comment'<br/>
+2020/08/31 16:12:30 Click submit button<br/>
+2020/08/31 16:12:30 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tests.BillingOrderTests@153f66e7</td></tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all required parameters<br>Parameters: John, Doe, email@gmail.com, Comment<br/>
+<a href="#Output-1738006567" onClick='toggleBox("Output-1738006567", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1738006567" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1738006567">
+2020/08/31 16:13:02 Fill first name - 'John'<br/>
+2020/08/31 16:13:02 Fill last name - 'Doe'<br/>
+2020/08/31 16:13:02 Fill email - 'email@gmail.com'<br/>
+2020/08/31 16:13:02 Fill comment - 'Comment'<br/>
+2020/08/31 16:13:02 Click submit button<br/>
+2020/08/31 16:13:05 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all required parameters<br>Parameters: John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU+<br/>
+<a href="#Output-256148279" onClick='toggleBox("Output-256148279", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-256148279" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-256148279">
+2020/08/31 16:13:07 Fill first name - 'John'<br/>
+2020/08/31 16:13:07 Fill last name - 'Doe'<br/>
+2020/08/31 16:13:07 Fill email - 'email@gmail.com'<br/>
+2020/08/31 16:13:07 Fill comment - 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU+'<br/>
+2020/08/31 16:13:08 Click submit button<br/>
+2020/08/31 16:13:09 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all required parameters<br>Parameters: John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789+<br/>
+<a href="#Output-695749666" onClick='toggleBox("Output-695749666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-695749666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-695749666">
+2020/08/31 16:13:11 Fill first name - 'John'<br/>
+2020/08/31 16:13:11 Fill last name - 'Doe'<br/>
+2020/08/31 16:13:11 Fill email - 'email@gmail.com'<br/>
+2020/08/31 16:13:12 Fill comment - '123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789+'<br/>
+2020/08/31 16:13:12 Click submit button<br/>
+2020/08/31 16:13:13 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.TestBlankFormPageTests.SubmitFormWithAllParametersTest()'><b>SubmitFormWithAllParametersTest</b><br>Test class: tests.TestBlankFormPageTests<br>Test method: Submit form with all required parameters<br>Parameters: John, Doe, email@gmail.com, ~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&*()_+{}|:"<>?`-=[];',./~!@#$%X<br/>
+<a href="#Output-1197186046" onClick='toggleBox("Output-1197186046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1197186046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1197186046">
+2020/08/31 16:13:15 Fill first name - 'John'<br/>
+2020/08/31 16:13:15 Fill last name - 'Doe'<br/>
+2020/08/31 16:13:16 Fill email - 'email@gmail.com'<br/>
+2020/08/31 16:13:16 Fill comment - '~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&*()_+{}|:"<>?`-=[];',./~!@#$%X'<br/>
+2020/08/31 16:13:16 Click submit button<br/>
+2020/08/31 16:13:17 Check success message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>tests.TestBlankFormPageTests@7aad3f7d</td></tr>
+<tr>
+<td title='tests.BillingOrderTests.TotalAmountTest()'><b>TotalAmountTest</b><br>Test class: tests.BillingOrderTests<br>Test method: Total amount visibility test<br/>
+<a href="#Output-1286351384" onClick='toggleBox("Output-1286351384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1286351384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1286351384">
+2020/08/31 16:12:34 Click first item radio button<br/>
+2020/08/31 16:12:34 Total amount should be $ 10.00<br/>
+2020/08/31 16:12:34 Click second item radio button<br/>
+2020/08/31 16:12:35 Total amount should be $ 20.00<br/>
+2020/08/31 16:12:35 Click third item radio button<br/>
+2020/08/31 16:12:35 Total amount should be $ 30.00<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.BillingOrderTests@153f66e7</td></tr>
+</table><p>
+</body>
+</html>

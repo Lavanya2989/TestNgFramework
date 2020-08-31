@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Billing_order_suite" class="navigator-link">
+              <span class="suite-name border-passed">Billing order suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Billing_order_suite" class="navigator-link ">
+                    <span>C:\Users\lavanya\Downloads\TestNGDemoProject\TestNGDemo\TestNGDemo\testngOnlyChrome.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Billing_order_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Billing_order_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Billing_order_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Billing_order_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Billing_order_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Billing_order_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Billing_order_suite" class="hide-methods passed suite-Billing_order_suite"> (hide)</a> <!-- hide-methods passed suite-Billing_order_suite -->
+                      <a href="#" panel-name="suite-Billing_order_suite" class="show-methods passed suite-Billing_order_suite"> (show)</a> <!-- show-methods passed suite-Billing_order_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Billing_order_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="CsvExampleTest(Brad, Pitt, mail-4@email.com, CSVfileexample)">CsvExampleTest(Brad, Pitt, mail-4@email.com, CSVfileexample)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="CsvExampleTest(John, Depp, mail-3@email.com, CSVfileexample)">CsvExampleTest(John, Depp, mail-3@email.com, CSVfileexample)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="CsvExampleTest(Will, Smith, mail-1@email.com, CSVfileexample)">CsvExampleTest(Will, Smith, mail-1@email.com, CSVfileexample)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="CsvExampleTest(Tony, Stark, mail-2@email.com, CSVfileexample)">CsvExampleTest(Tony, Stark, mail-2@email.com, CSVfileexample)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.BillingOrderTests" class="method navigator-link" hash-for-method="RequiredFieldsTest">RequiredFieldsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ~!@#$%^&amp;*()_+{}|:&quot; &lt;&gt;?`-=[];&#039;,./~!@#$%^&amp;*()_+{}|:&quot;&lt;&gt;?`-=[];&#039;,./ ~!@#$%^&amp;...)">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.BillingOrderTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(models.BillingOrder@5407502d)">SubmitFormWithAllParametersTest(models.BillingOrder@5407502d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, Comment)">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, Comment)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.BillingOrderTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(models.BillingOrder@659f8c1a)">SubmitFormWithAllParametersTest(models.BillingOrder@659f8c1a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRST...)">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRST...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.BillingOrderTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(models.BillingOrder@7630b4e8)">SubmitFormWithAllParametersTest(models.BillingOrder@7630b4e8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.TestBlankFormPageTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012...)">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.BillingOrderTests" class="method navigator-link" hash-for-method="SubmitFormWithAllParametersTest(models.BillingOrder@5b2cdb78)">SubmitFormWithAllParametersTest(models.BillingOrder@5b2cdb78)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Billing_order_suite" title="tests.BillingOrderTests" class="method navigator-link" hash-for-method="TotalAmountTest">TotalAmountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Billing_order_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Billing_order_suite" class="panel Billing_order_suite">
+          <div class="suite-Billing_order_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.BillingOrderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RequiredFieldsTest">
+                  </a> <!-- RequiredFieldsTest -->
+                  <span class="method-name">RequiredFieldsTest</span>
+                  <em>
+(Required fields validation test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(models.BillingOrder@5407502d)">
+                  </a> <!-- SubmitFormWithAllParametersTest(models.BillingOrder@5407502d) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(models.BillingOrder@5407502d)</span>
+                  <em>
+(Submit billing order with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(models.BillingOrder@659f8c1a)">
+                  </a> <!-- SubmitFormWithAllParametersTest(models.BillingOrder@659f8c1a) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(models.BillingOrder@659f8c1a)</span>
+                  <em>
+(Submit billing order with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(models.BillingOrder@7630b4e8)">
+                  </a> <!-- SubmitFormWithAllParametersTest(models.BillingOrder@7630b4e8) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(models.BillingOrder@7630b4e8)</span>
+                  <em>
+(Submit billing order with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(models.BillingOrder@5b2cdb78)">
+                  </a> <!-- SubmitFormWithAllParametersTest(models.BillingOrder@5b2cdb78) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(models.BillingOrder@5b2cdb78)</span>
+                  <em>
+(Submit billing order with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TotalAmountTest">
+                  </a> <!-- TotalAmountTest -->
+                  <span class="method-name">TotalAmountTest</span>
+                  <em>
+(Total amount visibility test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Billing_order_suite-class-passed -->
+          <div class="suite-Billing_order_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TestBlankFormPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CsvExampleTest(Brad, Pitt, mail-4@email.com, CSVfileexample)">
+                  </a> <!-- CsvExampleTest(Brad, Pitt, mail-4@email.com, CSVfileexample) -->
+                  <span class="method-name">CsvExampleTest</span>
+                  <span class="parameters">(Brad, Pitt, mail-4@email.com, CSVfileexample)</span>
+                  <em>
+(Submit form with all parameters from CSV file)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CsvExampleTest(John, Depp, mail-3@email.com, CSVfileexample)">
+                  </a> <!-- CsvExampleTest(John, Depp, mail-3@email.com, CSVfileexample) -->
+                  <span class="method-name">CsvExampleTest</span>
+                  <span class="parameters">(John, Depp, mail-3@email.com, CSVfileexample)</span>
+                  <em>
+(Submit form with all parameters from CSV file)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CsvExampleTest(Will, Smith, mail-1@email.com, CSVfileexample)">
+                  </a> <!-- CsvExampleTest(Will, Smith, mail-1@email.com, CSVfileexample) -->
+                  <span class="method-name">CsvExampleTest</span>
+                  <span class="parameters">(Will, Smith, mail-1@email.com, CSVfileexample)</span>
+                  <em>
+(Submit form with all parameters from CSV file)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CsvExampleTest(Tony, Stark, mail-2@email.com, CSVfileexample)">
+                  </a> <!-- CsvExampleTest(Tony, Stark, mail-2@email.com, CSVfileexample) -->
+                  <span class="method-name">CsvExampleTest</span>
+                  <span class="parameters">(Tony, Stark, mail-2@email.com, CSVfileexample)</span>
+                  <em>
+(Submit form with all parameters from CSV file)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ~!@#$%^&amp;*()_+{}|:&quot; &lt;&gt;?`-=[];&#039;,./~!@#$%^&amp;*()_+{}|:&quot;&lt;&gt;?`-=[];&#039;,./ ~!@#$%^&amp;...)">
+                  </a> <!-- SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&...) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(John, Doe, email@gmail.com, ~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&*()_+{}|:"<>?`-=[];',./~!@#$%X)</span>
+                  <em>
+(Submit form with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, Comment)">
+                  </a> <!-- SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, Comment) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(John, Doe, email@gmail.com, Comment)</span>
+                  <em>
+(Submit form with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRST...)">
+                  </a> <!-- SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRST...) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU+)</span>
+                  <em>
+(Submit form with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012...)">
+                  </a> <!-- SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012...) -->
+                  <span class="method-name">SubmitFormWithAllParametersTest</span>
+                  <span class="parameters">(John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789+)</span>
+                  <em>
+(Submit form with all required parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Billing_order_suite-class-passed -->
+        </div> <!-- panel Billing_order_suite -->
+        <div panel-name="test-xml-Billing_order_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lavanya\Downloads\TestNGDemoProject\TestNGDemo\TestNGDemo\testngOnlyChrome.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Billing order suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.BillingOrderTests&quot;/&gt;
+      &lt;class name=&quot;tests.TestBlankFormPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Billing order suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Billing_order_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Billing order suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Billing_order_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Billing order suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Billing_order_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Billing order suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Billing_order_suite');
+function tableData_Billing_order_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'RequiredFieldsTest')
+data.setCell(0, 2, 'tests.BillingOrderTests')
+data.setCell(0, 3, 8327);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(1, 2, 'tests.BillingOrderTests')
+data.setCell(1, 3, 3353);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(2, 2, 'tests.BillingOrderTests')
+data.setCell(2, 3, 3302);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(3, 2, 'tests.BillingOrderTests')
+data.setCell(3, 3, 2943);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(4, 2, 'tests.BillingOrderTests')
+data.setCell(4, 3, 2881);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(5, 2, 'tests.TestBlankFormPageTests')
+data.setCell(5, 3, 2847);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(6, 2, 'tests.TestBlankFormPageTests')
+data.setCell(6, 3, 2550);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(7, 2, 'tests.TestBlankFormPageTests')
+data.setCell(7, 3, 2149);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SubmitFormWithAllParametersTest')
+data.setCell(8, 2, 'tests.TestBlankFormPageTests')
+data.setCell(8, 3, 2046);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CsvExampleTest')
+data.setCell(9, 2, 'tests.TestBlankFormPageTests')
+data.setCell(9, 3, 1929);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CsvExampleTest')
+data.setCell(10, 2, 'tests.TestBlankFormPageTests')
+data.setCell(10, 3, 1851);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'CsvExampleTest')
+data.setCell(11, 2, 'tests.TestBlankFormPageTests')
+data.setCell(11, 3, 1774);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CsvExampleTest')
+data.setCell(12, 2, 'tests.TestBlankFormPageTests')
+data.setCell(12, 3, 1683);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TotalAmountTest')
+data.setCell(13, 2, 'tests.BillingOrderTests')
+data.setCell(13, 3, 373);
+window.suiteTableData['Billing_order_suite']= { tableData: data, tableDiv: 'times-div-Billing_order_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-Billing_order_suite">
+              </div> <!-- times-div-Billing_order_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Billing_order_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Billing order suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CsvExampleTest(Brad, Pitt, mail-4@email.com, CSVfileexample)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:58 Fill first name - 'Brad'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:58 Fill last name - 'Pitt'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:58 Fill email - 'mail-4@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:58 Fill comment - 'CSVfileexample'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:58 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:13:00 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:13:15 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:15 Fill last name - 'Doe'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:16 Fill email - 'email@gmail.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:16 Fill comment - '~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&*()_+{}|:"<>?`-=[];',./~!@#$%X'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:16 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:13:17 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CsvExampleTest(John, Depp, mail-3@email.com, CSVfileexample)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:54 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:54 Fill last name - 'Depp'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:54 Fill email - 'mail-3@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:54 Fill comment - 'CSVfileexample'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:55 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:56 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(models.BillingOrder@5407502d)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:16 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Fill last name - 'Li'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Fill email - 'mail@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Fill phone - '88002000500'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Fill address line 1 - 'State'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Fill address line 2 - 'District'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Fill city - 'Kanzas'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Fill code - '54321'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Click state dropdown</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Click state option - 'AK'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:17 Click first item radio button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:18 Fill comment - 'Comment'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:18 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:18 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CsvExampleTest(Will, Smith, mail-1@email.com, CSVfileexample)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:47 Fill first name - 'Will'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:47 Fill last name - 'Smith'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:47 Fill email - 'mail-1@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:47 Fill comment - 'CSVfileexample'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:47 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:48 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, Comment)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:13:02 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:02 Fill last name - 'Doe'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:02 Fill email - 'email@gmail.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:02 Fill comment - 'Comment'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:02 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:13:05 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">RequiredFieldsTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:01 Click submit button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(models.BillingOrder@659f8c1a)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:10 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Fill last name - 'Smith'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Fill email - 'mail@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Fill phone - '88002000500'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Fill address line 1 - 'State'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Fill address line 2 - 'District'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Fill city - 'Kanzas'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Fill code - '54321'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:11 Click state dropdown</span>
+                <span class="reporter-method-output">2020/08/31 16:12:12 Click state option - 'AK'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:12 Click first item radio button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:12 Fill comment - 'Comment'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:12 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:12 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRST...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:13:07 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:07 Fill last name - 'Doe'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:07 Fill email - 'email@gmail.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:07 Fill comment - 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU+'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:08 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:13:09 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TotalAmountTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:34 Click first item radio button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:34 Total amount should be $ 10.00</span>
+                <span class="reporter-method-output">2020/08/31 16:12:34 Click second item radio button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:35 Total amount should be $ 20.00</span>
+                <span class="reporter-method-output">2020/08/31 16:12:35 Click third item radio button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:35 Total amount should be $ 30.00</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(models.BillingOrder@7630b4e8)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:28 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:28 Fill last name - 'Smith-Li O'Connor'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:28 Fill email - 'mail@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:28 Fill phone - '88002000500'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:29 Fill address line 1 - 'State'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:29 Fill address line 2 - 'District'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:29 Fill city - 'Kanzas'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:29 Fill code - '54321'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:29 Click state dropdown</span>
+                <span class="reporter-method-output">2020/08/31 16:12:29 Click state option - 'AK'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:29 Click first item radio button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:30 Fill comment - 'Comment'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:30 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:30 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:13:11 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:11 Fill last name - 'Doe'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:11 Fill email - 'email@gmail.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:12 Fill comment - '123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789+'</span>
+                <span class="reporter-method-output">2020/08/31 16:13:12 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:13:13 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CsvExampleTest(Tony, Stark, mail-2@email.com, CSVfileexample)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:50 Fill first name - 'Tony'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:51 Fill last name - 'Stark'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:51 Fill email - 'mail-2@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:51 Fill comment - 'CSVfileexample'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:51 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:52 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubmitFormWithAllParametersTest(models.BillingOrder@5b2cdb78)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2020/08/31 16:12:22 Fill first name - 'John'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:22 Fill last name - 'Smith-Li'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:22 Fill email - 'mail@email.com'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Fill phone - '88002000500'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Fill address line 1 - 'State'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Fill address line 2 - 'District'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Fill city - 'Kanzas'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Fill code - '54321'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Click state dropdown</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Click state option - 'AK'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Click first item radio button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Fill comment - 'Comment'</span>
+                <span class="reporter-method-output">2020/08/31 16:12:23 Click submit button</span>
+                <span class="reporter-method-output">2020/08/31 16:12:24 Check success message displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Billing_order_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Billing_order_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BillingOrderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OneTimeSetUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">14271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RequiredFieldsTest</span>
+                <span class="method-start">25505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">33949 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">34558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(models.BillingOrder@659f8c1a)</span>
+                <span class="method-start">37010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">40420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">40784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(models.BillingOrder@5407502d)</span>
+                <span class="method-start">43194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">46160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">46536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(models.BillingOrder@5b2cdb78)</span>
+                <span class="method-start">48909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">51936 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">52315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(models.BillingOrder@7630b4e8)</span>
+                <span class="method-start">54784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">58234 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">58626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TotalAmountTest</span>
+                <span class="method-start">61075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">61495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">OneTimeTearDown</span>
+                <span class="method-start">61819 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TestBlankFormPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OneTimeSetUp(chrome)</span>
+                <span class="method-start">62682 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">66247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CsvExampleTest(Will, Smith, mail-1@email.com, CSVfileexample)</span>
+                <span class="method-start">73344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">75344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">75697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CsvExampleTest(Tony, Stark, mail-2@email.com, CSVfileexample)</span>
+                <span class="method-start">77197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">78964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">79354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CsvExampleTest(John, Depp, mail-3@email.com, CSVfileexample)</span>
+                <span class="method-start">80859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">82701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">83096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CsvExampleTest(Brad, Pitt, mail-4@email.com, CSVfileexample)</span>
+                <span class="method-start">84617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">86576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">86952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, Comment)</span>
+                <span class="method-start">88538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">91468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">91850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRST...)</span>
+                <span class="method-start">93420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">96159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">96513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, 123456789012345678901234567890123456789012345678901234567890123456789012...)</span>
+                <span class="method-start">98067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">100278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">100622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubmitFormWithAllParametersTest(John, Doe, email@gmail.com, ~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&...)</span>
+                <span class="method-start">102141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">104498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">OneTimeTearDown</span>
+                <span class="method-start">104927 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

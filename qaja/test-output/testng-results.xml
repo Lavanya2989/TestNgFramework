@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[2020/08/31 16:11:48 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:11:55 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:11:56 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:01 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:08 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:08 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:08 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:10 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Fill last name - 'Smith']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Fill email - 'mail@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Fill phone - '88002000500']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Fill address line 1 - 'State']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Fill address line 2 - 'District']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Fill city - 'Kanzas']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Fill code - '54321']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:11 Click state dropdown]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:12 Click state option - 'AK']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:12 Click first item radio button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:12 Fill comment - 'Comment']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:12 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:12 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:14 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:15 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:15 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:16 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Fill last name - 'Li']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Fill email - 'mail@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Fill phone - '88002000500']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Fill address line 1 - 'State']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Fill address line 2 - 'District']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Fill city - 'Kanzas']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Fill code - '54321']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Click state dropdown]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Click state option - 'AK']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:17 Click first item radio button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:18 Fill comment - 'Comment']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:18 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:18 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:20 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:21 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:21 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:22 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:22 Fill last name - 'Smith-Li']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:22 Fill email - 'mail@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Fill phone - '88002000500']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Fill address line 1 - 'State']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Fill address line 2 - 'District']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Fill city - 'Kanzas']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Fill code - '54321']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Click state dropdown]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Click state option - 'AK']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Click first item radio button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Fill comment - 'Comment']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:23 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:24 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:26 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:27 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:27 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:28 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:28 Fill last name - 'Smith-Li O'Connor']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:28 Fill email - 'mail@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:28 Fill phone - '88002000500']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:29 Fill address line 1 - 'State']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:29 Fill address line 2 - 'District']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:29 Fill city - 'Kanzas']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:29 Fill code - '54321']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:29 Click state dropdown]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:29 Click state option - 'AK']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:29 Click first item radio button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:30 Fill comment - 'Comment']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:30 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:30 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:32 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:33 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:33 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:34 Click first item radio button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:34 Total amount should be $ 10.00]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:34 Click second item radio button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:35 Total amount should be $ 20.00]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:35 Click third item radio button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:35 Total amount should be $ 30.00]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:39 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:45 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:45 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:47 Fill first name - 'Will']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:47 Fill last name - 'Smith']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:47 Fill email - 'mail-1@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:47 Fill comment - 'CSVfileexample']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:47 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:48 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:49 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:49 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:49 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:50 Fill first name - 'Tony']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:51 Fill last name - 'Stark']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:51 Fill email - 'mail-2@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:51 Fill comment - 'CSVfileexample']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:51 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:52 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:53 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:53 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:53 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:54 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:54 Fill last name - 'Depp']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:54 Fill email - 'mail-3@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:54 Fill comment - 'CSVfileexample']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:55 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:56 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:56 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:57 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:57 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:58 Fill first name - 'Brad']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:58 Fill last name - 'Pitt']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:58 Fill email - 'mail-4@email.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:58 Fill comment - 'CSVfileexample']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:12:58 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:00 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:00 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:00 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:01 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:02 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:02 Fill last name - 'Doe']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:02 Fill email - 'email@gmail.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:02 Fill comment - 'Comment']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:02 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:05 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:05 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:05 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:05 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:07 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:07 Fill last name - 'Doe']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:07 Fill email - 'email@gmail.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:07 Fill comment - 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU+']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:08 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:09 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:10 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:10 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:10 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:11 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:11 Fill last name - 'Doe']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:11 Fill email - 'email@gmail.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:12 Fill comment - '123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789+']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:12 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:13 Check success message displayed]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:14 Open authorization page]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:14 Fill password 'Testing']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:14 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:15 Fill first name - 'John']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:15 Fill last name - 'Doe']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:16 Fill email - 'email@gmail.com']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:16 Fill comment - '~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&*()_+{}|:"<>?`-=[];',./~!@#$%X']]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:16 Click submit button]]>
+    </line>
+    <line>
+      <![CDATA[2020/08/31 16:13:17 Check success message displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-08-31T04:11:33Z" name="Billing order suite" finished-at="2020-08-31T04:13:19Z" duration-ms="105623">
+    <groups>
+    </groups>
+    <test started-at="2020-08-31T04:11:33Z" name="ChromeTest" finished-at="2020-08-31T04:13:19Z" duration-ms="105623">
+      <class name="tests.BillingOrderTests">
+        <test-method is-config="true" signature="OneTimeSetUp(java.lang.String)[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:11:33Z" name="OneTimeSetUp" finished-at="2020-08-31T16:11:47Z" duration-ms="14245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneTimeSetUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:11:47Z" name="SetUp" finished-at="2020-08-31T16:11:58Z" duration-ms="10308" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:11:48 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:11:55 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:11:56 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RequiredFieldsTest()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:11:59Z" name="RequiredFieldsTest" description="Required fields validation test" finished-at="2020-08-31T16:12:07Z" duration-ms="8327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:01 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RequiredFieldsTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:07Z" name="TearDown" finished-at="2020-08-31T16:12:08Z" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:08Z" name="SetUp" finished-at="2020-08-31T16:12:10Z" duration-ms="2418" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:08 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:08 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:08 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(models.BillingOrder)[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:10Z" name="SubmitFormWithAllParametersTest" description="Submit billing order with all required parameters" data-provider="provideCorrectOrders" finished-at="2020-08-31T16:12:14Z" duration-ms="3302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.BillingOrder@659f8c1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:10 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Fill last name - 'Smith']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Fill email - 'mail@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Fill phone - '88002000500']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Fill address line 1 - 'State']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Fill address line 2 - 'District']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Fill city - 'Kanzas']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Fill code - '54321']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:11 Click state dropdown]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:12 Click state option - 'AK']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:12 Click first item radio button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:12 Fill comment - 'Comment']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:12 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:12 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:14Z" name="TearDown" finished-at="2020-08-31T16:12:14Z" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:14Z" name="SetUp" finished-at="2020-08-31T16:12:16Z" duration-ms="2399" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:14 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:15 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:15 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(models.BillingOrder)[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:16Z" name="SubmitFormWithAllParametersTest" description="Submit billing order with all required parameters" data-provider="provideCorrectOrders" finished-at="2020-08-31T16:12:19Z" duration-ms="2881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.BillingOrder@5407502d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:16 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Fill last name - 'Li']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Fill email - 'mail@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Fill phone - '88002000500']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Fill address line 1 - 'State']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Fill address line 2 - 'District']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Fill city - 'Kanzas']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Fill code - '54321']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Click state dropdown]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Click state option - 'AK']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:17 Click first item radio button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:18 Fill comment - 'Comment']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:18 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:18 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:19Z" name="TearDown" finished-at="2020-08-31T16:12:20Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:20Z" name="SetUp" finished-at="2020-08-31T16:12:22Z" duration-ms="2370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:20 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:21 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:21 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(models.BillingOrder)[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:22Z" name="SubmitFormWithAllParametersTest" description="Submit billing order with all required parameters" data-provider="provideCorrectOrders" finished-at="2020-08-31T16:12:25Z" duration-ms="2943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.BillingOrder@5b2cdb78]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:22 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:22 Fill last name - 'Smith-Li']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:22 Fill email - 'mail@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Fill phone - '88002000500']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Fill address line 1 - 'State']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Fill address line 2 - 'District']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Fill city - 'Kanzas']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Fill code - '54321']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Click state dropdown]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Click state option - 'AK']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Click first item radio button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Fill comment - 'Comment']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:23 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:24 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:25Z" name="TearDown" finished-at="2020-08-31T16:12:26Z" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:26Z" name="SetUp" finished-at="2020-08-31T16:12:28Z" duration-ms="2434" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:26 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:27 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:27 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(models.BillingOrder)[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:28Z" name="SubmitFormWithAllParametersTest" description="Submit billing order with all required parameters" data-provider="provideCorrectOrders" finished-at="2020-08-31T16:12:31Z" duration-ms="3353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[models.BillingOrder@7630b4e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:28 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:28 Fill last name - 'Smith-Li O'Connor']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:28 Fill email - 'mail@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:28 Fill phone - '88002000500']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:29 Fill address line 1 - 'State']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:29 Fill address line 2 - 'District']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:29 Fill city - 'Kanzas']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:29 Fill code - '54321']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:29 Click state dropdown]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:29 Click state option - 'AK']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:29 Click first item radio button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:30 Fill comment - 'Comment']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:30 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:30 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:31Z" name="TearDown" finished-at="2020-08-31T16:12:32Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:32Z" name="SetUp" finished-at="2020-08-31T16:12:34Z" duration-ms="2448" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:32 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:33 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:33 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TotalAmountTest()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:34Z" name="TotalAmountTest" description="Total amount visibility test" finished-at="2020-08-31T16:12:35Z" duration-ms="373" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:34 Click first item radio button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:34 Total amount should be $ 10.00]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:34 Click second item radio button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:35 Total amount should be $ 20.00]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:35 Click third item radio button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:35 Total amount should be $ 30.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TotalAmountTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:35Z" name="TearDown" finished-at="2020-08-31T16:12:35Z" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="OneTimeTearDown()[pri:0, instance:tests.BillingOrderTests@153f66e7]" started-at="2020-08-31T16:12:35Z" name="OneTimeTearDown" finished-at="2020-08-31T16:12:36Z" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneTimeTearDown -->
+      </class> <!-- tests.BillingOrderTests -->
+      <class name="tests.TestBlankFormPageTests">
+        <test-method is-config="true" signature="OneTimeSetUp(java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:36Z" name="OneTimeSetUp" finished-at="2020-08-31T16:12:39Z" duration-ms="3540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneTimeSetUp -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:39Z" name="SetUp" finished-at="2020-08-31T16:12:47Z" duration-ms="7096" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:39 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:45 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:45 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CsvExampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:47Z" name="CsvExampleTest" description="Submit form with all parameters from CSV file" data-provider="csvDataProvider" finished-at="2020-08-31T16:12:49Z" duration-ms="1929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Will]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail-1@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CSVfileexample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:47 Fill first name - 'Will']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:47 Fill last name - 'Smith']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:47 Fill email - 'mail-1@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:47 Fill comment - 'CSVfileexample']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:47 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:48 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CsvExampleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:49Z" name="TearDown" finished-at="2020-08-31T16:12:49Z" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:49Z" name="SetUp" finished-at="2020-08-31T16:12:50Z" duration-ms="1480" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:49 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:49 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:49 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CsvExampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:50Z" name="CsvExampleTest" description="Submit form with all parameters from CSV file" data-provider="csvDataProvider" finished-at="2020-08-31T16:12:52Z" duration-ms="1683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tony]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stark]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail-2@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CSVfileexample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:50 Fill first name - 'Tony']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:51 Fill last name - 'Stark']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:51 Fill email - 'mail-2@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:51 Fill comment - 'CSVfileexample']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:51 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:52 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CsvExampleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:52Z" name="TearDown" finished-at="2020-08-31T16:12:53Z" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:53Z" name="SetUp" finished-at="2020-08-31T16:12:54Z" duration-ms="1448" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:53 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:53 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:53 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CsvExampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:54Z" name="CsvExampleTest" description="Submit form with all parameters from CSV file" data-provider="csvDataProvider" finished-at="2020-08-31T16:12:56Z" duration-ms="1774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Depp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail-3@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CSVfileexample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:54 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:54 Fill last name - 'Depp']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:54 Fill email - 'mail-3@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:54 Fill comment - 'CSVfileexample']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:55 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:56 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CsvExampleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:56Z" name="TearDown" finished-at="2020-08-31T16:12:56Z" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:56Z" name="SetUp" finished-at="2020-08-31T16:12:58Z" duration-ms="1492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:56 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:57 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:57 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CsvExampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:12:58Z" name="CsvExampleTest" description="Submit form with all parameters from CSV file" data-provider="csvDataProvider" finished-at="2020-08-31T16:13:00Z" duration-ms="1851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pitt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mail-4@email.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CSVfileexample]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:12:58 Fill first name - 'Brad']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:58 Fill last name - 'Pitt']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:58 Fill email - 'mail-4@email.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:58 Fill comment - 'CSVfileexample']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:12:58 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:00 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CsvExampleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:00Z" name="TearDown" finished-at="2020-08-31T16:13:00Z" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:00Z" name="SetUp" finished-at="2020-08-31T16:13:02Z" duration-ms="1530" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:00 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:00 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:01 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:02Z" name="SubmitFormWithAllParametersTest" description="Submit form with all required parameters" data-provider="provideCorrectFormParameters" finished-at="2020-08-31T16:13:05Z" duration-ms="2847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Comment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:02 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:02 Fill last name - 'Doe']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:02 Fill email - 'email@gmail.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:02 Fill comment - 'Comment']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:02 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:05 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:05Z" name="TearDown" finished-at="2020-08-31T16:13:05Z" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:05Z" name="SetUp" finished-at="2020-08-31T16:13:07Z" duration-ms="1569" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:05 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:05 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:05 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:07Z" name="SubmitFormWithAllParametersTest" description="Submit form with all required parameters" data-provider="provideCorrectFormParameters" finished-at="2020-08-31T16:13:09Z" duration-ms="2550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:07 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:07 Fill last name - 'Doe']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:07 Fill email - 'email@gmail.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:07 Fill comment - 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU+']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:08 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:09 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:09Z" name="TearDown" finished-at="2020-08-31T16:13:10Z" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:10Z" name="SetUp" finished-at="2020-08-31T16:13:11Z" duration-ms="1542" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:10 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:10 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:10 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:11Z" name="SubmitFormWithAllParametersTest" description="Submit form with all required parameters" data-provider="provideCorrectFormParameters" finished-at="2020-08-31T16:13:13Z" duration-ms="2149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:11 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:11 Fill last name - 'Doe']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:11 Fill email - 'email@gmail.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:12 Fill comment - '123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789+']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:12 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:13 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:14Z" name="TearDown" finished-at="2020-08-31T16:13:14Z" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:14Z" name="SetUp" finished-at="2020-08-31T16:13:15Z" duration-ms="1518" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:14 Open authorization page]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:14 Fill password 'Testing']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:14 Click submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SubmitFormWithAllParametersTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:15Z" name="SubmitFormWithAllParametersTest" description="Submit form with all required parameters" data-provider="provideCorrectFormParameters" finished-at="2020-08-31T16:13:17Z" duration-ms="2046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&*()_+{}|:"<>?`-=[];',./~!@#$%X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2020/08/31 16:13:15 Fill first name - 'John']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:15 Fill last name - 'Doe']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:16 Fill email - 'email@gmail.com']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:16 Fill comment - '~!@#$%^&*()_+{}|:" <>?`-=[];',./~!@#$%^&*()_+{}|:"<>?`-=[];',./ ~!@#$%^&*()_+{}|:"<>?`-=[];',./~!@#$%X']]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:16 Click submit button]]>
+            </line>
+            <line>
+              <![CDATA[2020/08/31 16:13:17 Check success message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllParametersTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:18Z" name="TearDown" finished-at="2020-08-31T16:13:18Z" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="OneTimeTearDown()[pri:0, instance:tests.TestBlankFormPageTests@7aad3f7d]" started-at="2020-08-31T16:13:18Z" name="OneTimeTearDown" finished-at="2020-08-31T16:13:19Z" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OneTimeTearDown -->
+      </class> <!-- tests.TestBlankFormPageTests -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Billing order suite -->
+</testng-results>

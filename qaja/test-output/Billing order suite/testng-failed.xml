@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Billing order suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.BillingOrderTests">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="OneTimeTearDown"/>
+          <include name="RequiredFieldsTest"/>
+          <include name="OneTimeSetUp"/>
+        </methods>
+      </class> <!-- tests.BillingOrderTests -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Billing order suite] -->
